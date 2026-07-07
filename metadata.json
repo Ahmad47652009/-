@@ -1,0 +1,6 @@
+{
+  "name": "معرض الألعاب مع الإعلانات",
+  "description": "منصة ألعاب متكاملة تحتوي على ألعاب تفاعلية ومساحات إعلانية مخصصة لـ Google AdSense مع إمكانية التخصيص والتحكم.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
