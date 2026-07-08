@@ -10,6 +10,11 @@ const STATS_FILE = path.join(process.cwd(), "stats.json");
 // Middleware to parse JSON
 app.use(express.json());
 
+app.get('/robots.txt', (req, res) => {
+    res.type('text/plain');
+    res.send("User-agent: *\nAllow: /");
+});
+
 // Load or initialize persistent stats data
 interface StatsData {
   totalVisitors: number;
