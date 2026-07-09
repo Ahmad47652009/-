@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
-     "build": "vite build && esbuild server.ts --bundle --platform=node --outfile=dist/server.cjs && echo 'User-agent: *\nAllow: /' > dist/robots.txt",
+    "build": "vite build && esbuild server.ts --bundle --platform=node --outfile=dist/server.cjs",
     "start": "unzip -o assets.zip && unzip -o src.zip && node dist/server.cjs",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
